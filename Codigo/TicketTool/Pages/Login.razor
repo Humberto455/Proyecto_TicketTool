@@ -1,0 +1,28 @@
+﻿@page "/login"
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+
+<h3>Login</h3>
+
+<div>
+    <input @bind="Email" placeholder="Email" />
+    <input @bind="Password" placeholder="Password" type="password" />
+    <button @onclick="PerformLogin">Login</button>
+</div>
+
+@code {
+    private string Email { get; set; }
+    private string Password { get; set; }
+
+    private async Task PerformLogin() // Renombramos el método
+    {
+        if (await AuthService.ValidateLoginAsync(Email, Password))
+        {
+            Navigation.NavigateTo("/tickets");
+        }
+        else
+        {
+            // Mostrar mensaje de error si las credenciales son incorrectas
+        }
+    }
+}

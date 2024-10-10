@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\source\\repos\\TicketTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:pages\\registeruser.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\data\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:data\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\pages\\tickets\\ticketlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:pages\\tickets\\ticketlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\pages\\tickets\\createticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:pages\\tickets\\createticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\shared\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:shared\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\pages\\tickets\\editticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:pages\\tickets\\editticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|c:\\users\\master\\source\\repos\\tickettool\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08A3A5B1-EB60-428E-92BC-7425FF62ED00}|TicketTool.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterUser.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\RegisterUser.razor",
+              "RelativeDocumentMoniker": "Pages\\RegisterUser.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\RegisterUser.razor",
+              "RelativeToolTip": "Pages\\RegisterUser.razor",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T22:24:10.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "Data\\MongoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:45:04.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:56:02.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateTicket.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Tickets\\CreateTicket.razor",
+              "RelativeDocumentMoniker": "Pages\\Tickets\\CreateTicket.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Tickets\\CreateTicket.razor",
+              "RelativeToolTip": "Pages\\Tickets\\CreateTicket.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:54:05.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketList.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Tickets\\TicketList.razor",
+              "RelativeDocumentMoniker": "Pages\\Tickets\\TicketList.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Tickets\\TicketList.razor",
+              "RelativeToolTip": "Pages\\Tickets\\TicketList.razor",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:55:10.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Services\\TicketService.cs",
+              "RelativeToolTip": "Services\\TicketService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAowCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:46:49.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Data\\Ticket.cs",
+              "RelativeDocumentMoniker": "Data\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Data\\Ticket.cs",
+              "RelativeToolTip": "Data\\Ticket.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:42:32.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:47:56.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Data\\User.cs",
+              "RelativeDocumentMoniker": "Data\\User.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Data\\User.cs",
+              "RelativeToolTip": "Data\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:44:03.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:58:09.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Shared\\Error.razor",
+              "RelativeDocumentMoniker": "Shared\\Error.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Shared\\Error.razor",
+              "RelativeToolTip": "Shared\\Error.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T22:04:42.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T22:03:28.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T22:03:00.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditTicket.razor",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Tickets\\EditTicket.razor",
+              "RelativeDocumentMoniker": "Pages\\Tickets\\EditTicket.razor",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\Pages\\Tickets\\EditTicket.razor",
+              "RelativeToolTip": "Pages\\Tickets\\EditTicket.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T21:54:49.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketTool\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketTool\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-09T21:39:07.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

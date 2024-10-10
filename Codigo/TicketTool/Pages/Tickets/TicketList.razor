@@ -1,0 +1,55 @@
+﻿@page "/tickets"
+@inject TicketService TicketService
+@inject NavigationManager Navigation
+
+<h3>Listado de Tickets</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Departamento</th>
+            <th>Fecha Solicitado</th>
+            <th>Fecha Actualizado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Tickets != null)
+        {
+            foreach (var ticket in Tickets)
+            {
+                <tr>
+                    <td>@ticket.Titulo</td>
+                    <td>@ticket.Departamento</td>
+                    <td>@ticket.FechaSolicitado.ToShortDateString()</td>
+                    <td>@ticket.FechaActualizacion.ToShortDateString()</td>
+                    <td>
+                        <button @onclick="() => EditTicket(ticket.Id.ToString())">Editar</button>
+                        <button @onclick="() => DeleteTicket(ticket.Id.ToString())">Borrar</button>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Ticket> Tickets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Tickets = await TicketService.GetTicketsAsync();
+    }
+
+    private void EditTicket(string id)  // id convertido a string
+    {
+        Navigation.NavigateTo($"/ticket/edit/{id}");
+    }
+
+    private async Task DeleteTicket(string id)
+    {
+        await TicketService.DeleteTicketAsync(id);
+        Tickets = await TicketService.GetTicketsAsync();  // Refrescar lista después de borrar
+    }
+}

@@ -1,0 +1,31 @@
+﻿@page "/ticket/edit/{id}"
+@inject TicketService TicketService
+@inject NavigationManager Navigation
+@code {
+    [Parameter]
+    public string id { get; set; }
+    private Ticket Ticket { get; set; } = new Ticket();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Ticket = await TicketService.GetTicketByIdAsync(id);
+    }
+
+    private async Task UpdateTicket()
+    {
+        await TicketService.UpdateTicketAsync(Ticket);
+        Navigation.NavigateTo("/tickets");
+    }
+}
+
+<h3>Edit Ticket</h3>
+<div>
+    <input @bind="Ticket.Titulo" placeholder="Titulo" />
+    <input @bind="Ticket.Descripcion" placeholder="Descripcion" />
+    <input @bind="Ticket.Estatus" placeholder="Estatus" />
+    <input @bind="Ticket.Departamento" placeholder="Departamento" />
+    <input @bind="Ticket.FechaSolicitado" type="date" />
+    <input @bind="Ticket.FechaActualizacion" type="date" />
+
+    <button @onclick="UpdateTicket">Update</button>
+</div>

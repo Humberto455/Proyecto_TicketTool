@@ -1,0 +1,26 @@
+﻿@page "/ticket/create"
+@inject NavigationManager Navigation
+@inject TicketService TicketService
+
+<h3>Create New Ticket</h3>
+
+<div>
+    <input @bind="NewTicket.Titulo" placeholder="Titulo" />
+    <input @bind="NewTicket.Descripcion" placeholder="Descripcion" />
+    <input @bind="NewTicket.Estatus" placeholder="Estatus" />
+    <input @bind="NewTicket.Departamento" placeholder="Departamento" />
+    <input @bind="NewTicket.FechaSolicitado" type="date" />
+    <input @bind="NewTicket.FechaActualizacion" type="date" />
+
+    <button @onclick="SubmitTicket">Create Ticket</button>
+</div>
+
+@code {
+    private Ticket NewTicket = new Ticket();  // Nuevo objeto ticket
+
+    private async Task SubmitTicket() // Renombramos el método
+    {
+        await TicketService.CreateTicketAsync(NewTicket);
+        Navigation.NavigateTo("/tickets");  // Redirige después de crear el ticket
+    }
+}
