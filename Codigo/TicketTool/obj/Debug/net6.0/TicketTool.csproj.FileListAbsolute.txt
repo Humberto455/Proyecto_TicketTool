@@ -44,3 +44,4 @@ C:\Users\Master\source\repos\TicketTool\obj\Debug\net6.0\refint\TicketTool.dll
 C:\Users\Master\source\repos\TicketTool\obj\Debug\net6.0\TicketTool.pdb
 C:\Users\Master\source\repos\TicketTool\obj\Debug\net6.0\TicketTool.genruntimeconfig.cache
 C:\Users\Master\source\repos\TicketTool\obj\Debug\net6.0\ref\TicketTool.dll
+C:\Users\Master\source\repos\TicketTool\bin\Debug\net6.0\BCrypt.Net-Next.dll

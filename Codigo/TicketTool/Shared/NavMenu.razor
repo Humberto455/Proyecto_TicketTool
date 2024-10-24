@@ -1,29 +1,28 @@
-﻿<nav>
-    <ul>
-        <li><a href="/tickets">Listado de Tickets</a></li>
-        <li><a href="/ticket/create">Crear Ticket</a></li>
-        <li><a href="/login">Login</a></li>
-        <li><a href="/register">Registrar Usuario</a></li>
-    </ul>
-</nav>
+﻿@inject AuthService AuthService
+@inject NavigationManager Navigation
 
-<style>
-    nav {
-        padding: 10px;
-        background-color: #f0f0f0;
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="list-group">
+                <a href="/tickets" class="list-group-item list-group-item-action">Listado de Tickets</a>
+                <a href="/ticket/create" class="list-group-item list-group-item-action">Crear Ticket</a>
+                <a href="/login" class="list-group-item list-group-item-action">Login</a>
+                <a href="/register" class="list-group-item list-group-item-action">Registrar Usuario</a>
+                @if (AuthService.IsUserAuthenticated)
+                {
+                    <a href="/" class="list-group-item list-group-item-action" @onclick="Logout">Cerrar Sesión</a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private async Task Logout()
+    {
+        await AuthService.LogoutAsync(); // Llama al método de Logout en el servicio
+        Navigation.NavigateTo("/login"); // Redirige a la página de login
+        StateHasChanged();
     }
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        margin: 5px 0;
-    }
-    a {
-        text-decoration: none;
-        color: #007bff;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+}
