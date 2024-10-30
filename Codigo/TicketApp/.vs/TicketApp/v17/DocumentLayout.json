@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Master\\source\\repos\\TicketApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|c:\\users\\master\\source\\repos\\ticketapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|c:\\users\\master\\source\\repos\\ticketapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|c:\\users\\master\\source\\repos\\ticketapp\\views\\ticketlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|solutionrelative:views\\ticketlistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|c:\\users\\master\\source\\repos\\ticketapp\\views\\ticketlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{5387A9FF-4C97-4E2A-A688-9F2A65C84453}|TicketApp.csproj|solutionrelative:views\\ticketlistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:43:00.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T04:42:47.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketApp\\Views\\TicketListPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TicketListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketApp\\Views\\TicketListPage.xaml.cs",
+              "RelativeToolTip": "Views\\TicketListPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T04:42:19.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Master\\source\\repos\\TicketApp\\Views\\TicketListPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TicketListPage.xaml",
+              "ToolTip": "C:\\Users\\Master\\source\\repos\\TicketApp\\Views\\TicketListPage.xaml",
+              "RelativeToolTip": "Views\\TicketListPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T04:42:18.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

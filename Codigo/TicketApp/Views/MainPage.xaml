@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicketApp.Views.MainPage"
+             BackgroundColor="#F5F5F5">
+
+    <StackLayout Padding="20" Spacing="40" VerticalOptions="Center">
+        <Label Text="Menú de Tickets" 
+               FontSize="36" 
+               HorizontalOptions="Center" 
+               FontAttributes="Bold"
+               TextColor="#333" />
+
+        <Grid RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*, *" Padding="20" ColumnSpacing="20" RowSpacing="20">
+
+            <!-- Crear Ticket Button -->
+            <Button Text="Crear Ticket"
+                    Grid.Row="0"
+                    Grid.ColumnSpan="2"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="60"
+                    Clicked="OnCreateTicketClicked" />
+
+            <!-- Lista de Tickets Button -->
+            <Button Text="Lista de Tickets"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="60"
+                    Clicked="OnListTicketsClicked" />
+
+            <!-- Editar Ticket Button -->
+            <Button Text="Editar Ticket"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    BackgroundColor="#FF9800"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="60"
+                    Clicked="OnEditTicketClicked" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

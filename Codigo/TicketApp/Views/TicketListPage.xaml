@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicketApp.Views.TicketListPage">
+
+    <StackLayout Padding="20" Spacing="10">
+        <Label Text="Lista de Tickets" FontSize="32" HorizontalOptions="Center" />
+
+        <ListView x:Name="TicketListView" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BorderColor="Orange" CornerRadius="10" Padding="10" Margin="5" BackgroundColor="White" HasShadow="True">
+                            <StackLayout Orientation="Vertical" Spacing="5">
+                                <Label Text="{Binding Titulo}" FontAttributes="Bold" FontSize="18" TextColor="Black" />
+                                <Label Text="{Binding Estatus}" FontSize="14" TextColor="Gray"/>
+                                <Label Text="{Binding Departamento}" FontSize="14" TextColor="Gray"/>
+
+                                <Button Text="Editar"
+                                        HorizontalOptions="End"
+                                        Clicked="OnSelectTicketClicked"
+                                        CommandParameter="{Binding Id}"
+                                        BackgroundColor="#007BFF"
+                                        TextColor="White"
+                                        CornerRadius="5"
+                                        Padding="10"
+                                        WidthRequest="120" />
+
+                                <Button Text="Eliminar"
+                                            Clicked="OnDeleteTicketClicked"
+                                            HorizontalOptions="End"
+                                            CommandParameter="{Binding Id}"
+                                            BackgroundColor="Red"
+                                            TextColor="White"
+                                            CornerRadius="5"
+                                            Padding="10"
+                                            WidthRequest="120" />
+                                
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

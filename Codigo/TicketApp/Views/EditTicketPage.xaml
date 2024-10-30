@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicketApp.Views.EditTicketPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Editar Ticket" FontSize="32" HorizontalOptions="Center" />
+
+        <Entry x:Name="TituloEntry" Placeholder="Título" />
+        <Entry x:Name="DescripcionEntry" Placeholder="Descripción" />
+
+        <Label Text="Estatus" />
+        <Picker x:Name="EstatusPicker" Title="Selecciona el estado">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Pendiente</x:String>
+                    <x:String>En Progreso</x:String>
+                    <x:String>Completado</x:String>
+                    <x:String>Cancelado</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Label Text="Departamento" />
+        <Picker x:Name="DepartamentoPicker" Title="Selecciona el departamento">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Tecnologías</x:String>
+                    <x:String>Administración</x:String>
+                    <x:String>Mantenimiento</x:String>
+                    <x:String>Ventas</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button Text="Actualizar Ticket" Clicked="OnUpdateTicketClicked" />
+    </StackLayout>
+</ContentPage>
