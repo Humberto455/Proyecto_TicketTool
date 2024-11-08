@@ -59,3 +59,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TicketApp.Views.TicketListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TicketListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\TicketListPage.xaml
+
+[C:/Users/Master/source/repos/TicketApp/Views/TicketListPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TicketApp.Views.TicketListPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TicketListPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TicketListPage2.xaml

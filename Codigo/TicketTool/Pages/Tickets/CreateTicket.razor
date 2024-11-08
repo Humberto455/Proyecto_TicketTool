@@ -1,6 +1,7 @@
 ﻿@page "/ticket/create"
 @inject NavigationManager Navigation
 @inject TicketService TicketService
+@inject IJSRuntime JSRuntime  // Inyección del servicio para JavaScript
 
 <div class="container mt-4">
     <div class="row justify-content-center">
@@ -11,13 +12,13 @@
                 </div>
                 <div class="card-body">
                     <div class="form-group mb-3">
-                        <label for="titulo">Titulo</label>
-                        <input id="titulo" class="form-control" @bind="NewTicket.Titulo" placeholder="Título" />
+                        <label for="titulo">Título</label>
+                        <input id="titulo" class="form-control" maxlength="30" @bind="NewTicket.Titulo" placeholder="Título" />
                     </div>
 
                     <div class="form-group mb-3">
                         <label for="descripcion">Descripción</label>
-                        <input id="descripcion" class="form-control" @bind="NewTicket.Descripcion" placeholder="Descripción" />
+                        <input id="descripcion" class="form-control" maxlength="50" @bind="NewTicket.Descripcion" placeholder="Descripción" />
                     </div>
 
                     <div class="form-group mb-3">
@@ -40,7 +41,6 @@
                         </select>
                     </div>
 
-                    <!-- Campos de fecha eliminados del formulario de creación -->
                     <div class="text-center">
                         <button class="btn btn-primary w-100" @onclick="SubmitTicket">Crear Ticket</button>
                     </div>
@@ -60,6 +60,11 @@
         NewTicket.FechaActualizacion = DateTime.Now;
 
         await TicketService.CreateTicketAsync(NewTicket);
-        Navigation.NavigateTo("/tickets");  // Redirige después de crear el ticket
+
+        // Mostrar la alerta de éxito
+        await JSRuntime.InvokeVoidAsync("alert", "El ticket se ha creado exitosamente.");
+
+        // Redirigir después de crear el ticket
+        Navigation.NavigateTo("/tickets");
     }
 }

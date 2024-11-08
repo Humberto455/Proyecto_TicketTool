@@ -16,7 +16,7 @@ namespace TicketApp.Views
 
         private async void OnListTicketsClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TicketListPage());
+            await Navigation.PushAsync(new TicketListPage2());
         }
 
         private async void OnEditTicketClicked(object sender, EventArgs e)

@@ -1,15 +1,57 @@
 ﻿@inherits LayoutComponentBase
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime  // Inyección de IJSRuntime para las alertas
 
-<PageTitle>BlazorTicketsApp</PageTitle>
+<PageTitle>TicketTool</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
+<!-- Barra de navegación en la parte superior -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">TicketTool</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                @if (AuthService.IsUserAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tickets">Listado de Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ticket/create">Crear Ticket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" @onclick="Logout">Cerrar Sesión</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register">Registrar Usuario</a>
+                    </li>
+                }
+            </ul>
+        </div>
     </div>
+</nav>
 
-    <main>
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+<!-- Contenido principal -->
+<main class="container mt-4">
+    <article class="content">
+        @Body
+    </article>
+</main>
+
+@code {
+    private async Task Logout()  // Cambiado a async para permitir el uso de await
+    {
+        await AuthService.LogoutAsync();  // Asumimos que LogoutAsync es un método async
+        await JSRuntime.InvokeVoidAsync("alert", "Se ha cerrado sesión exitosamente."); // Mostrar alerta
+        Navigation.NavigateTo("/login");
+    }
+}

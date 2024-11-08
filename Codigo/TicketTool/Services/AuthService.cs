@@ -15,16 +15,34 @@ public class AuthService
 
     public bool IsUserAuthenticated => isAuthenticated; // Propiedad pública para comprobar autenticación
 
-    public async Task<bool> ValidateLoginAsync(string email, string password)
+    public enum LoginResult
+    {
+        Success,
+        InvalidEmail,
+        InvalidPassword
+    }
+
+    public async Task<LoginResult> ValidateLoginAsync(string email, string password)
     {
         var user = await _users.Find(u => u.Email == email).FirstOrDefaultAsync();
-        if (user != null && BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
+
+        if (user == null)
         {
-            isAuthenticated = true; // Autenticación exitosa
-            return true;
+            // No se encontró un usuario con el correo proporcionado
+            return LoginResult.InvalidEmail;
         }
-        return false; // Usuario no encontrado o contraseña incorrecta
+
+        if (!BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
+        {
+            // La contraseña no coincide
+            return LoginResult.InvalidPassword;
+        }
+
+        // Autenticación exitosa
+        isAuthenticated = true;
+        return LoginResult.Success;
     }
+
 
     public async Task<bool> RegisterUserAsync(string email, string password)
     {

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TicketTool.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Master\\source\\repos\\TicketTool\\wwwroot\\css\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\css\\Images\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\Master\\source\\repos\\TicketTool\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },

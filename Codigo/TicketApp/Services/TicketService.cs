@@ -13,10 +13,20 @@ namespace TicketApp.Services // Asegúrate de usar el espacio de nombres correct
 
         public TicketService(string connectionString)
         {
-            var client = new MongoClient(connectionString);
-            var database = client.GetDatabase("TicketsDb");
-            _tickets = database.GetCollection<Ticket>("Tickets");
+            try
+            {
+                var client = new MongoClient(connectionString);
+                var database = client.GetDatabase("TicketsDb");
+                _tickets = database.GetCollection<Ticket>("Tickets");
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores: log o lanzar la excepción
+                Console.WriteLine($"Error al conectar a MongoDB: {ex.Message}");
+                throw;
+            }
         }
+
 
         public async Task<List<Ticket>> GetTicketsAsync()
         {

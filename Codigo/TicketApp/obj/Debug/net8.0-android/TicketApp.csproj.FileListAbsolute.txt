@@ -519,7 +519,6 @@ C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\assets\z
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\assets\zh-HK\Microsoft.Maui.Controls.resources.dll
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\assets\ZstdSharp.dll
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\assets\_Microsoft.Android.Resource.Designer.dll
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\AndroidManifest.xml
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\AndroidManifest.xml
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\src\mono\MonoRuntimeProvider.java
@@ -528,7 +527,6 @@ C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\bin\mono
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\static.flag
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\__environment__.txt
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\buildid.txt
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\environment.x86_64.ll
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\src\androidx\activity\ktx\R.java
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\src\androidx\activity\R.java
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\src\androidx\annotation\experimental\R.java
@@ -1027,13 +1025,6 @@ C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\src\mono
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\bin\packaged_resources
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\_CompileJava.FileList.txt
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\typemaps.x86_64.o
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\environment.x86_64.o
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\bin\classes.dex
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\bin\classes2.dex
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\stamp\_CleanIntermediateIfNeeded.stamp
@@ -1049,3 +1040,12 @@ C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\resizetizer\r\mi
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon_round.png
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-hdpi\appicon_round.png
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\resizetizer\r\mipmap-mdpi\appicon_round.png
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\typemaps.x86_64.ll
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\environment.x86_64.ll
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.ll
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\typemaps.x86_64.o
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\environment.x86_64.o
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\compressed_assemblies.x86_64.o
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
+C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so

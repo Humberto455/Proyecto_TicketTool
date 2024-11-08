@@ -1,6 +1,8 @@
 ﻿@page "/ticket/edit/{id}"
 @inject TicketService TicketService
 @inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime  // Inyección del servicio para JavaScript
+
 @code {
     [Parameter]
     public string id { get; set; }
@@ -17,10 +19,14 @@
         Ticket.FechaActualizacion = DateTime.Now;
 
         await TicketService.UpdateTicketAsync(Ticket);
+
+        // Mostrar la alerta de éxito
+        await JSRuntime.InvokeVoidAsync("alert", "Ticket actualizado correctamente.");
+
+        // Redirigir después de actualizar el ticket
         Navigation.NavigateTo("/tickets");
     }
 }
-
 
 <div class="container mt-4">
     <div class="row justify-content-center">
@@ -32,12 +38,12 @@
                 <div class="card-body">
                     <div class="form-group mb-3">
                         <label for="titulo">Título</label>
-                        <input id="titulo" class="form-control" @bind="Ticket.Titulo" placeholder="Título" />
+                        <input id="titulo" class="form-control" maxlength="30" @bind="Ticket.Titulo" placeholder="Título" />
                     </div>
 
                     <div class="form-group mb-3">
                         <label for="descripcion">Descripción</label>
-                        <input id="descripcion" class="form-control" @bind="Ticket.Descripcion" placeholder="Descripción" />
+                        <input id="descripcion" class="form-control" maxlength="50" @bind="Ticket.Descripcion" placeholder="Descripción" />
                     </div>
 
                     <div class="form-group mb-3">
