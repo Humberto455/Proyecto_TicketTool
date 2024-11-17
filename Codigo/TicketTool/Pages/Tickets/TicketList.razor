@@ -6,22 +6,22 @@
 <h3 class="text-center mt-4">Listado de Tickets</h3>
 
 <div class="container mt-4">
-    <table class="table table-striped table-bordered">
-        <thead class="thead-dark">
-            <tr>
-                <th>Titulo</th>
-                <th>Departamento</th>
-                <th>Descripcion</th>
-                <th>Estatus</th>
-                <th>Fecha Solicitado</th>
-                <th>Fecha Actualizado</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            @if (Tickets != null)
-            {
-                foreach (var ticket in Tickets)
+    @if (Tickets != null && Tickets.Count > 0)
+    {
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Titulo</th>
+                    <th>Departamento</th>
+                    <th>Descripcion</th>
+                    <th>Estatus</th>
+                    <th>Fecha Solicitado</th>
+                    <th>Fecha Actualizado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var ticket in Tickets)
                 {
                     <tr>
                         <td>@ticket.Titulo</td>
@@ -36,15 +36,15 @@
                         </td>
                     </tr>
                 }
-            }
-            else
-            {
-                <tr>
-                    <td colspan="5" class="text-center">No hay tickets disponibles</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" role="alert" style="font-size: 1.2em;">
+            <strong>No hay tickets disponibles.</strong> ¡Sé el primero en crear uno!
+        </div>
+    }
 </div>
 
 @code {

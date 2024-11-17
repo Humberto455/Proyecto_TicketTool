@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = TicketApp.Views.EditTicket
 build_metadata.AdditionalFiles.TargetPath = Views\EditTicketPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditTicketPage.xaml
 
+[C:/Users/Master/source/repos/TicketApp/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TicketApp.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
 [C:/Users/Master/source/repos/TicketApp/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TicketApp.Views.MainPage.xaml

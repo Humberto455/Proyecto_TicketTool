@@ -24,14 +24,29 @@ namespace TicketApp.Views
 
         private async void OnUpdateTicketClicked(object sender, EventArgs e)
         {
+            // Validar si los campos están vacíos
+            if (string.IsNullOrWhiteSpace(TituloEntry.Text) ||
+                string.IsNullOrWhiteSpace(DescripcionEntry.Text) ||
+                EstatusPicker.SelectedItem == null ||
+                DepartamentoPicker.SelectedItem == null)
+            {
+                // Mostrar alerta si algún campo está vacío
+                await DisplayAlert("Error", "Por favor, complete todos los campos.", "OK");
+                return; // No continuar con la actualización del ticket
+            }
+
+            // Asignar los valores de los campos al ticket
             _ticket.Titulo = TituloEntry.Text;
             _ticket.Descripcion = DescripcionEntry.Text;
             _ticket.Estatus = EstatusPicker.SelectedItem?.ToString();
             _ticket.Departamento = DepartamentoPicker.SelectedItem?.ToString();
 
+            // Actualizar el ticket en el servicio
             await App.TicketService.UpdateTicketAsync(_ticket.Id.ToString(), _ticket);
             await DisplayAlert("Éxito", "Ticket actualizado con éxito.", "OK");
-            await Navigation.PopToRootAsync();
+
+            // Navegar a la MainPage después de la actualización
+            await Navigation.PushAsync(new MainPage());
         }
     }
 }

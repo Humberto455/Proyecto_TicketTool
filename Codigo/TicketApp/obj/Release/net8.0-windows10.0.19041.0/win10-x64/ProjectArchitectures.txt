@@ -1,0 +1,1 @@
+C:\Users\Master\source\repos\TicketApp\TicketApp.csproj;x64

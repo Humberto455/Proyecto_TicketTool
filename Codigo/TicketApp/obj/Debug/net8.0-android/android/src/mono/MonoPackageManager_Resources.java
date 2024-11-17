@@ -24,6 +24,7 @@ public class MonoPackageManager_Resources {
 		"MongoDB.Driver.dll",
 		"SharpCompress.dll",
 		"Snappier.dll",
+		"System.Diagnostics.DiagnosticSource.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",

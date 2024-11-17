@@ -20,7 +20,7 @@ namespace TicketApp
             // Usa la cadena de conexión desde la configuración
             TicketService = new TicketService(AppConfig.ConnectionString);
 
-            MainPage = new NavigationPage(new Views.MainPage());
+            MainPage = new NavigationPage(new Views.LoginPage());
         }
     }
 }

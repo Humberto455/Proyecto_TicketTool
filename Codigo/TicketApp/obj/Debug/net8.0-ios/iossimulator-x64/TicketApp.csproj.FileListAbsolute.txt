@@ -21,6 +21,7 @@ C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\Mon
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\MongoDB.Driver.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\SharpCompress.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\Snappier.dll
+C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\ZstdSharp.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\ca\Microsoft.Maui.Controls.resources.dll
@@ -82,7 +83,6 @@ C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\Sys
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Data.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.Contracts.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.Debug.dll
-C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.FileVersionInfo.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.Process.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-ios\iossimulator-x64\System.Diagnostics.StackTrace.dll
@@ -290,7 +290,6 @@ C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\res
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.stamp
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.outputs
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.stamp
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf

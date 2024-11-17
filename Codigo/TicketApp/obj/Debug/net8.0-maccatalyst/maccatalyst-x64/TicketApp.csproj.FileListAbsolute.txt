@@ -21,6 +21,7 @@ C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\MongoDB.Driver.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\SharpCompress.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\Snappier.dll
+C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ZstdSharp.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
@@ -82,7 +83,6 @@ C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Data.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Debug.dll
-C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.FileVersionInfo.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Process.dll
 C:\Users\Master\source\repos\TicketApp\bin\Debug\net8.0-maccatalyst\maccatalyst-x64\System.Diagnostics.StackTrace.dll
@@ -280,7 +280,6 @@ C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
-C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauiimage.outputs
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\mauifont.stamp
 C:\Users\Master\source\repos\TicketApp\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf

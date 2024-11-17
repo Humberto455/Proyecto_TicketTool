@@ -1,20 +1,42 @@
 ﻿@page "/ticket/edit/{id}"
 @inject TicketService TicketService
 @inject NavigationManager Navigation
-@inject IJSRuntime JSRuntime  // Inyección del servicio para JavaScript
+@inject IJSRuntime JSRuntime
 
 @code {
     [Parameter]
     public string id { get; set; }
     private Ticket Ticket { get; set; } = new Ticket();
+    private string ErrorMessage { get; set; } // Variable para mensajes de error
 
     protected override async Task OnInitializedAsync()
     {
         Ticket = await TicketService.GetTicketByIdAsync(id);
     }
 
+    private bool IsValidInput(string input)
+    {
+        // Expresión regular que permite letras, números, la 'ñ', caracteres acentuados y espacios
+        return System.Text.RegularExpressions.Regex.IsMatch(input, @"^[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ\s]*$");
+    }
+
     private async Task UpdateTicket()
     {
+        // Validación de campos vacíos
+        if (string.IsNullOrWhiteSpace(Ticket.Titulo) || string.IsNullOrWhiteSpace(Ticket.Descripcion) ||
+            string.IsNullOrWhiteSpace(Ticket.Estatus) || string.IsNullOrWhiteSpace(Ticket.Departamento))
+        {
+            ErrorMessage = "No se aceptan campos vacíos. Por favor, completa todos los campos.";
+            return;
+        }
+
+        // Validación de caracteres especiales y emojis
+        if (!IsValidInput(Ticket.Titulo) || !IsValidInput(Ticket.Descripcion))
+        {
+            ErrorMessage = "Los campos de texto no pueden contener caracteres especiales o emojis, pero se permite la letra 'ñ' y acentos.";
+            return;
+        }
+
         // Establecer la fecha de actualización a la fecha y hora actual
         Ticket.FechaActualizacion = DateTime.Now;
 
@@ -36,6 +58,13 @@
                     <h4>Modificar Información del Ticket</h4>
                 </div>
                 <div class="card-body">
+                    @if (!string.IsNullOrEmpty(ErrorMessage))
+                    {
+                        <div class="alert alert-danger" role="alert">
+                            @ErrorMessage
+                        </div>
+                    }
+
                     <div class="form-group mb-3">
                         <label for="titulo">Título</label>
                         <input id="titulo" class="form-control" maxlength="30" @bind="Ticket.Titulo" placeholder="Título" />
@@ -49,6 +78,7 @@
                     <div class="form-group mb-3">
                         <label for="estatus">Estatus</label>
                         <select id="estatus" class="form-control" @bind="Ticket.Estatus">
+                            <option value="" disabled selected>Selecciona un estatus</option>
                             <option value="Pendiente">Pendiente</option>
                             <option value="En Progreso">En Progreso</option>
                             <option value="Completado">Completado</option>
@@ -59,6 +89,7 @@
                     <div class="form-group mb-3">
                         <label for="departamento">Departamento</label>
                         <select id="departamento" class="form-control" @bind="Ticket.Departamento">
+                            <option value="" disabled selected>Selecciona un departamento</option>
                             <option value="Tecnologias">Tecnologías</option>
                             <option value="Administracion">Administración</option>
                             <option value="Mantenimiento">Mantenimiento</option>
